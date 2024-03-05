@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+button:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+    filter: drop-shadow(0px 1px 2px rgba(0,0,0,1)); 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
+
+
+.container {
+    background-image: url(rectangle_16_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav .img {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+    right: 40px;
+}
+
+.nav {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 12vh;
+}
+
+.nav .text ul {
+    display: flex;
+    gap: 3vw;
+}
+
+.nav .text ul li {
+    list-style: none;
+}
+
+.nav .text ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav .text ul li:hover {
+    cursor: pointer;
+}
+
+.text button {
+    position: relative;
+    top: -1vh;
+    display: flex;
+    gap: 3vw;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 21px;
+    font-weight: 10;
+}
+
+.container hr {
+    filter: opacity(10%);
+}
+
+.container .design {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 90vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+.container .design h1 {
+    font-size: 3rem;
+    width: 40vw;
+    text-align: right;
+    font-weight: 20;
+}
+
+.container .design button {
+    position: relative;
+    left: 11vw;
+    padding: 12px 40px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 21px;
+}
+
+.container .design p {
+    font-size: 12px;
+    position: relative;
+    top: -3vh;
+    left: 12vw;
+    text-align: right;
+}
+
+.container1{
+    background-color:#2e3b4e;
+    width: 100vw;
+    height: 50vh;
+}
+
+.box{
+    width: 40vw;
+    height: 50vh;
+    /* border: 2px solid black; */
+    position: relative;
+    left: 30%;
+    top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.box .item{
+    width: 18vw;
+    height: 20vh;
+    /* border:2px solid black; */
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: 20; */
+}
+
+.container1 .box .item{
+    font-weight: 10;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container1 .box .item h2{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 30;
+}
+
+.container2{
+    width: 100vw;
+    height: 50vh;
+    /* background-color: #d54c63; */
+    background-image: url(rectangle_21.jpg);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container2 img{
+    /* display: flex; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 40px;
+    left: 590px;   
+}
+
+.item p{
+    font-size: 13px;
+    font-weight: 2;
+}
+
+.container2 .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* size: 40%; */
+}
+
+.container2 .box h3{
+    font-weight: 30;
+    font-size:xx-large;
+
+}
+
+.container2 .box p{
+    font-weight: 20;
+    font-size: small;
+
+}
+
+.container2 .box button{
+    width: 200px;
+    height: 50px;
+    border-radius: 31px;
+    background-color: #ffffff;
+    color: #d54c63;
+    border: none;
+}
+
+.container3{
+    width: 100vw;
+    height: 50vh;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container3 img{
+    width: 40vw;
+    height: 50vh;
+}
+
+.container3 .block{
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    /* position: relative;
+    left: 40px; */
+    padding: 20px;
+    color: #3a4d60;
+}
+
+.container3 .block h3{
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;   
+}
+
+.container4{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(rectangle_7.jpg);
+}
+
+.container4 #box{
+    width: 100vw;
+    height: 45vh;
+    border: none;
+    position: relative;
+    top: 15vh;
+    background-color: #612079;
+    opacity: 0.800;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#text-box{
+    /* height: 45vh; */
+    width: 40vw; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: auto 40px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#text-box button{
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    filter: drop-shadow(0px 1px 2px rgba(0,0,0,1));
+    box-shadow: inset 0px 1px 0px rgba(255,255,255);
+    background-color: rgb(142, 25, 220, 1); 
+    border: 2px solid #8824cd;
+    margin-bottom: 2%;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#text-box h2{
+    font-size: 30px;
+    font-weight: 1;
+    margin-bottom: 4%;
+}
+
+#text-box .one{
+    margin-bottom: 4%;
+    color: #a87bb7;
+}
+
+#text-box .two{
+    font-size: x-small;
+}
+    
+.container5{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(rectangle_6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about{
+    width: 30vw;
+    height: 20vh;
+    /* border: 1px solid white; */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: 53%;
+    left: 20%;
+}
+
+.about button{
+    /* opacity: 0.000; */
+    width: 135px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: rgba(129,180,65,0);
+    border: 2px solid #ffffff;
+    color: white;
+    margin-bottom: 2%;
+    font-size: 13px;
+}
+
+.about p{
+    width: 657px;
+    height: 95px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 40;
+    margin-bottom: 2%;
+}
+
+.about #sec{
+    position: relative;
+    bottom: 10px;
+}
+
+.container6{
+    width: 100vw;
+    height: 55vh; 
+}
+
+.container6 .flex{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container6 img{
+    height: 55vh;
+    width: 40vw;
+}
+
+.container6 .text{
+    height: 35vh;
+    width: 45vw;
+    position: relative;
+    bottom: 300px ;
+    margin: 5%;
+    margin-top: 1%;
+    color: #3a4d60;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text h3{
+    text-transform: uppercase;
+    margin-bottom: 1%;
+    font-size: 15px; 
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.text p{
+    line-height: 26px;
+}
+
+.container7{
+    width: 100vw;
+    height: 55vh;
+    background-color: #d54c63;
+}
+
+.container7 .contact{
+    width: 30vw;
+    height: 40vh;
+    margin-left: 5%;
+    position: relative;
+    top: 80px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact h3{
+    text-transform: uppercase;
+    /* width: 400px;
+    height: 173px; */
+    font-size: 15px;
+}
+
+.contact p{
+    font-weight: 2;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+
+.contact a{
+    color: white;
+}
+
+.container8{
+    width: 100vw;
+    height: 45vh;
+    background-color: #3a4d60;
+    color: white;   
+}
+
+.container8 p{
+    font-size: 12px;
+    line-height: 36px;
+    font-weight: 400;
+    position: relative;
+    left: 25px;
+    top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
