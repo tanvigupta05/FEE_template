@@ -7,17 +7,11 @@ body{
     overflow-x: hidden;
 }
 
-button:hover {
-    cursor: pointer;
-    text-decoration-line: underline;
-    filter: drop-shadow(0px 1px 2px rgba(0,0,0,1)); 
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
 
 
 .container {
-    background-image: url(rectangle_16_2.jpg);
+    background-image: url(./images/rectangle_16_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -33,7 +27,7 @@ button:hover {
     align-items: center;
     justify-self: center;
     position: relative;
-    right: 40px;
+    right: 5%;
 }
 
 .nav {
@@ -108,10 +102,10 @@ button:hover {
 }
 
 .container .design p {
-    font-size: 12px;
+    font-size: 85%;
     position: relative;
     top: -3vh;
-    left: 12vw;
+    left: 11vw;
     text-align: right;
 }
 
@@ -124,7 +118,6 @@ button:hover {
 .box{
     width: 40vw;
     height: 50vh;
-    /* border: 2px solid black; */
     position: relative;
     left: 30%;
     top: 10%;
@@ -133,76 +126,70 @@ button:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .box .item{
     width: 18vw;
     height: 20vh;
-    /* border:2px solid black; */
     color: white;
-    font-family: 'Open Sans', sans-serif;
-    /* font-weight: 20; */
 }
 
 .container1 .box .item{
     font-weight: 10;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .container1 .box .item h2{
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 85%;
+    line-height: 10%;
     font-weight: 30;
+}
+
+.item p{
+    font-size: 80%;
+    font-weight: 2;
 }
 
 .container2{
     width: 100vw;
     height: 50vh;
-    /* background-color: #d54c63; */
-    background-image: url(rectangle_21.jpg);
+    background-image: url(./images/rectangle_21.jpg);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container2 img{
-    /* display: flex; */
     position: relative;
-    display: flex;
-    justify-content: center;
-    bottom: 40px;
-    left: 590px;   
+    bottom: 6vh;
+    left: 45vw;   
 }
 
-.item p{
-    font-size: 13px;
-    font-weight: 2;
-}
-
-.container2 .box{
+.container2 .box2{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:flex-start;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* size: 40%; */
 }
 
-.container2 .box h3{
-    font-weight: 30;
-    font-size:xx-large;
-
+.container2 .box2 h3{
+    font-size: 30px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 300;
 }
 
-.container2 .box p{
+.container2 .box2 p{
     font-weight: 20;
     font-size: small;
-
 }
 
-.container2 .box button{
-    width: 200px;
-    height: 50px;
-    border-radius: 31px;
+.container2 .box2 button{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 21px;
     background-color: #ffffff;
     color: #d54c63;
     border: none;
@@ -227,11 +214,9 @@ button:hover {
     height: 30vh;
     display: flex;
     flex-direction: column;
-    margin: 50px;
-    /* position: relative;
-    left: 40px; */
-    padding: 20px;
+    margin: 4%;
     color: #3a4d60;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container3 .block h3{
@@ -243,7 +228,7 @@ button:hover {
 .container4{
     width: 100vw;
     height: 60vh;
-    background-image: url(rectangle_7.jpg);
+    background-image: url(./images/rectangle_7.jpg);
 }
 
 .container4 #box{
@@ -260,12 +245,10 @@ button:hover {
 }
 
 #text-box{
-    /* height: 45vh; */
     width: 40vw; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin: auto 40px; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -273,8 +256,8 @@ button:hover {
 }
 
 #text-box button{
-    width: 180px;
-    height: 40px;
+    width: 15vw;
+    height: 6vh;
     border-radius: 30px;
     color: white;
     filter: drop-shadow(0px 1px 2px rgba(0,0,0,1));
@@ -282,13 +265,12 @@ button:hover {
     background-color: rgb(142, 25, 220, 1); 
     border: 2px solid #8824cd;
     margin-bottom: 2%;
-    letter-spacing: 1px;
     font-weight: 100;
     text-align: center;
 }
 
 #text-box h2{
-    font-size: 30px;
+    font-size: x-large;
     font-weight: 1;
     margin-bottom: 4%;
 }
@@ -305,7 +287,7 @@ button:hover {
 .container5{
     width: 100vw;
     height: 80vh;
-    background-image: url(rectangle_6.jpg);
+    background-image: url(./images/rectangle_6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -313,7 +295,6 @@ button:hover {
 .about{
     width: 30vw;
     height: 20vh;
-    /* border: 1px solid white; */
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -323,22 +304,21 @@ button:hover {
 }
 
 .about button{
-    /* opacity: 0.000; */
-    width: 135px;
-    height: 35px;
+    width: 12vw;
+    height: 6vh;
     border-radius: 17px;
     background-color: rgba(129,180,65,0);
     border: 2px solid #ffffff;
     color: white;
     margin-bottom: 2%;
-    font-size: 13px;
+    font-size: 90%;
 }
 
 .about p{
-    width: 657px;
-    height: 95px;
-    font-size: 40px;
-    line-height: 50px;
+    width: 50vw;
+    height: 15vh;
+    font-size: 200%;
+    line-height: 7vh;
     color: #ffffff;
     font-weight: 40;
     margin-bottom: 2%;
@@ -346,7 +326,7 @@ button:hover {
 
 .about #sec{
     position: relative;
-    bottom: 10px;
+    bottom: 1.5vh;
 }
 
 .container6{
@@ -368,8 +348,8 @@ button:hover {
     height: 35vh;
     width: 45vw;
     position: relative;
-    bottom: 300px ;
-    margin: 5%;
+    bottom: 45.5vh ;
+    margin: 8%;
     margin-top: 1%;
     color: #3a4d60;
     font-family: 'Montserrat', sans-serif;
@@ -379,13 +359,13 @@ button:hover {
 .text h3{
     text-transform: uppercase;
     margin-bottom: 1%;
-    font-size: 15px; 
-    line-height: 26px;
+    font-size: 90%; 
+    line-height: 3vh;
     font-weight: 700;
 }
 
 .text p{
-    line-height: 26px;
+    line-height: 4vh;
 }
 
 .container7{
@@ -399,7 +379,7 @@ button:hover {
     height: 40vh;
     margin-left: 5%;
     position: relative;
-    top: 80px;
+    top: 8vh;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -407,14 +387,12 @@ button:hover {
 
 .contact h3{
     text-transform: uppercase;
-    /* width: 400px;
-    height: 173px; */
-    font-size: 15px;
+    font-size: 90%;
 }
 
 .contact p{
     font-weight: 2;
-    font-size: 15px;
+    font-size: 90%;
     margin-bottom: 2%;
 }
 
@@ -440,7 +418,434 @@ button:hover {
     font-family: 'Open Sans', sans-serif;
 }
 
+button:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+    filter: drop-shadow(0px 1px 2px rgba(0,0,0,1)); 
+}
 
+.nav .text a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+    box-shadow: 0 0 4px rgba(255 255 255 0.5);
+}
 
+@media screen and (max-width: 420px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        overflow-x: hidden;
+    }
 
+    .container{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(./images/rectangle_16_2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
+    .nav {
+        padding-top: 5rem;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .nav .img {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .nav .text{
+        font-size: small;
+        position: relative;
+        bottom: 6px;
+    }
+
+    .nav .text ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav .text button {
+        margin-top: 15px;
+        margin-bottom: 2px;
+    }
+
+    .container .design {
+        width: 90%;
+        text-align: center;
+    }
+
+    .container .design h1 {
+        font-size: 2rem;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .container .design button {
+        position: static;
+        margin: 20px auto;
+    }
+
+    .container .design p {
+        position: static;
+        margin: 0 auto;
+    }
+    .container1{
+        height: 80vh;
+    }
+    .container1 .box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+        margin:auto;
+        left: 3%;
+        top: 5%;
+    }
+
+    .container1 .box .item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container2{
+        width: 100%;
+    }
+ 
+    .container2 img {
+        width: 40%;
+        position: relative;
+        left: 32%;
+    }
+
+    .container2 .box2 {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .container2 .box2 button{
+        bottom: 20px;
+        width: 35%;
+    }
+
+    .container3 {
+        height: 90vh ;
+        flex-direction: column;
+    }
+
+    .container3 .block p{
+        font-size: 15px;
+    }
+
+    .container3 img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .container3 .block {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .container4{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .container4 #box{
+        width: 100%;
+        height: 35vh;
+    }
+
+    #text-box {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        font-size: 12px;
+    }
+
+    #text-box button{
+       width: 32vw;
+       height: 5vh;
+    }
+    .container5{
+        width: 100vw;
+        height: 80vh;
+        background-image: url(./images/rectangle_6.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .container5 .about{
+        width: 60vw;
+        height: 70vw;  
+    }
+
+    .container5 .about p{
+        position: relative;
+        bottom: 30%;
+        font-size: 30px;
+    }
+
+    .container5 .about button{
+        width: 24vw;
+        position: relative;
+        bottom: 30%;
+    }
+
+    .about #sec{
+        position: relative;
+        top: 3px;
+        width: 40vw;
+    }
+
+    .about #first{
+        position: relative;
+        top: 15px;
+    }
+    .container6{
+       height:120vh;
+       display: flex;
+       flex-direction: column;
+    }
+
+    .container6 .flex img {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .container6 .text {
+        width: 90%;
+        margin: 20px auto;
+        position: relative;
+        top: 45px;
+    }
+    
+    .container8 {
+        height: 50vh;
+    }
+
+    .container8 p{
+        width: 90vw;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(./images/rectangle_16_2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .nav {
+        padding-top: 5rem;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .nav .img {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .nav .text{
+        font-size: small;
+        position: relative;
+        bottom: 6px;
+    }
+
+    .nav .text ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav .text button {
+        margin-top: 15px;
+        margin-bottom: 2px;
+    }
+
+    .container .design {
+        width: 90%;
+        text-align: center;
+    }
+
+    .container .design h1 {
+        font-size: 2rem;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .container .design button {
+        position: static;
+        margin: 20px auto;
+    }
+
+    .container .design p {
+        position: static;
+        margin: 0 auto;
+    }
+    .container1{
+        height: 80vh;
+    }
+    .container1 .box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+        margin:auto;
+        left: 3%;
+        top: 5%;
+    }
+
+    .container1 .box .item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container2{
+        width: 100%;
+    }
+ 
+    .container2 img {
+        width: 40%;
+        position: relative;
+        left: 32%;
+    }
+
+    .container2 .box2 {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .container2 .box2 button{
+        bottom: 20px;
+        width: 35%;
+    }
+
+    .container3 {
+        height: 90vh ;
+        flex-direction: column;
+    }
+
+    .container3 .block p{
+        font-size: 15px;
+    }
+
+    .container3 img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .container3 .block {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .container4{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .container4 #box{
+        width: 100%;
+        height: 35vh;
+    }
+
+    #text-box {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        font-size: 12px;
+    }
+
+    #text-box button{
+       width: 32vw;
+       height: 5vh;
+    }
+    .container5{
+        width: 100vw;
+        height: 80vh;
+        background-image: url(./images/rectangle_6.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .container5 .about{
+        width: 60vw;
+        height: 70vw;  
+    }
+
+    .container5 .about p{
+        position: relative;
+        bottom: 30%;
+        font-size: 30px;
+    }
+
+    .container5 .about button{
+        width: 24vw;
+        position: relative;
+        bottom: 30%;
+    }
+
+    .about #sec{
+        position: relative;
+        top: 3px;
+        width: 40vw;
+    }
+
+    .about #first{
+        position: relative;
+        top: 15px;
+    }
+    .container6{
+       height:120vh;
+       display: flex;
+       flex-direction: column;
+    }
+
+    .container6 .flex img {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .container6 .text {
+        width: 90%;
+        margin: 20px auto;
+        position: relative;
+        top: 45px;
+    }
+
+    .container8 p{
+        width: 80vw;
+    }
+
+}
