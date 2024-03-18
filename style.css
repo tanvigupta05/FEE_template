@@ -53,8 +53,12 @@ body{
     color: white;
 }
 
-.nav .text ul li:hover {
-    cursor: pointer;
+.toggle-btn {
+    display: none;
+}
+
+#toggle-menu{
+    display: none;
 }
 
 .text button {
@@ -344,7 +348,7 @@ body{
     width: 40vw;
 }
 
-.container6 .text{
+.container6 .text1{
     height: 35vh;
     width: 45vw;
     position: relative;
@@ -356,7 +360,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.text h3{
+.text1 h3{
     text-transform: uppercase;
     margin-bottom: 1%;
     font-size: 90%; 
@@ -364,7 +368,7 @@ body{
     font-weight: 700;
 }
 
-.text p{
+.text1 p{
     line-height: 4vh;
 }
 
@@ -448,15 +452,13 @@ button:hover {
     }
 
     .nav {
-        padding-top: 5rem;
         flex-direction: column;
         align-items: center;
-
     }
 
     .nav .img {
-        margin-top: 15px;
-        margin-bottom: 20px;
+        position: relative;
+        bottom: 20px;
     }
 
     .nav .text{
@@ -625,7 +627,7 @@ button:hover {
         flex-direction: column;
     }
 
-    .container6 .text {
+    .container6 .text1 {
         width: 90%;
         margin: 20px auto;
         position: relative;
@@ -663,12 +665,12 @@ button:hover {
         padding-top: 5rem;
         flex-direction: column;
         align-items: center;
-
     }
 
     .nav .img {
-        margin-top: 15px;
-        margin-bottom: 20px;
+        position: relative;
+        bottom: 15px;
+        margin-bottom: -20px;
     }
 
     .nav .text{
@@ -837,7 +839,7 @@ button:hover {
         flex-direction: column;
     }
 
-    .container6 .text {
+    .container6 .text1 {
         width: 90%;
         margin: 20px auto;
         position: relative;
@@ -848,4 +850,32 @@ button:hover {
         width: 80vw;
     }
 
+    .text {
+        display: none;
+        position: relative;
+        top: 20px;
+        box-shadow: 0 0 6px rgba(255,255,255,0.5);
+        transition:all 0.3s linear
+    }
+ 
+    .toggle-btn {
+        display: block;
+        font-size: 15px;
+        font-weight: 700;
+        position: relative;
+        right: 25px;
+    }
+
+    #toggle-menu {
+        display: none;
+    }
+
+    #toggle-menu:checked ~ .text {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #toggle-menu:checked ~ .toggle-btn{
+        opacity: 0;
+    }
 }
